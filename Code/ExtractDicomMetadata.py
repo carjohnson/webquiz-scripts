@@ -3,9 +3,11 @@ import pydicom
 import pandas as pd
 
 # -------- CONFIG --------
-# ROOT_DIR_ForLiveTesting = r"D:/Users/cjohnson/Work/ForHarryMarshall/TCGA-LiverStudies/manifest-1779818875630/TCGA-LIHC"
-# ROOT_DIR_ForLocalPacs = r"D:/Users/cjohnson/Work/Projects/WebQuiz/Testing dicom LiverStudy/LocalPACS-DevTesting"
-ROOT_DIR = r"D:/Users/cjohnson/Work/Projects/WebQuiz/Testing dicom LiverStudy/LocalPACS-DevTesting"
+# Uncomment the ROOT_DIR folder as needed
+# FOR LIVE_TESTING...
+ROOT_DIR = r"D:/Users/cjohnson/Work/ForHarryMarshall/TCGA-LiverStudies/manifest-1779818875630/TCGA-LIHC"
+# FOR LOCALPACS
+# ROOT_DIR = r"D:/Users/cjohnson/Work/Projects/WebQuiz/Testing dicom LiverStudy/LocalPACS-DevTesting"
 OUTPUT_XLSX = "dicom_index.xlsx"
 # ------------------------
 
